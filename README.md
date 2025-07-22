@@ -28,16 +28,12 @@ The primary objective of this project is to conduct a comprehensive performance 
 
 **1. List all unique cities where customers are located.**
 
-```markdown
-## 🔍 Business Question 1 – Top-Selling Products
-
-To identify which products are generating the highest revenue from delivered orders:
-
 ```sql
-SELECT product_name, SUM(sales_amount) AS total_sales
-FROM orders
-WHERE order_status = 'Delivered'
-GROUP BY product_name
-ORDER BY total_sales DESC;
+query = "select distinct customer_city from customers"
+cur.execute(query)
+data = cur.fetchall()
+df=pd.DataFrame(data)
+df.head();
 
+**Insight** 
 

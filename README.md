@@ -1,4 +1,6 @@
 # Target_LTD_Performance_Analysis
+🔗 [Open the Performance Analysis Notebook](https://github.com/Deepanshu985/Target_LTD_Performance_Analysis/blob/cba537fd5d8f66ea5fd4080b3bbd2c368537cc4a/Target_Ltd_ecommerce_PA.ipynb)
+
 This project combines **SQL** and **Python** to perform a comprehensive analysis for **Target Ltd**, addressing key business questions around sales performance, regional revenue gaps, and customer segmentation. It includes raw SQL queries and visual insights derived through Python.
 
 ---

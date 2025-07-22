@@ -33,7 +33,26 @@ query = "select distinct customer_city from customers"
 cur.execute(query)
 data = cur.fetchall()
 df=pd.DataFrame(data)
-df.head();
+df.head()
+```
+**📊 Insight:** 
+0	franca
+1	sao bernardo do campo
+2	sao paulo
+3	mogi das cruzes
+4	campinas
 
-**Insight** 
+--
+
+**2. Count the number of orders placed in 2017.**
+
+```sql
+query = "select count(order_id) from orders where year(order_purchase_timestamp) = 2017 "
+cur.execute(query)
+data = cur.fetchall()
+data[0][0]
+```
+**📊 Insight:** 
+45101
+
 

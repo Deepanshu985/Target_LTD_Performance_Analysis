@@ -365,7 +365,14 @@ plt.show()
 **📊 Insight:** 
 ![](https://github.com/Deepanshu985/Target_LTD_Performance_Analysis/blob/2891c9961d62f32491b36b7b76a2aa0db4eeb2c6/outputs/visuals/Screenshot%202025-07-22%20185614.png)
 
+## 🎯 Recommendations
+- 🛍️ Revise pricing and marketing strategies for low-growth products
+- 🌐 Consider incentives and geo-targeted campaigns in underperforming areas
+- 💎 Create loyalty programs and exclusive offers for high-spending customer
 
+
+## 🧠Conclusion
+This analysis helped uncover key growth challenges and opportunities for Target Ltd, combining the power of SQL queries with Python-based data visualization. The recommendations are data-driven, stakeholder-friendly, and ready to be put into action.
 
 
 

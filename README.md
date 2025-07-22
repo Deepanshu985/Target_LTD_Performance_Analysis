@@ -46,7 +46,7 @@ df.head()
 
 **2. Count the number of orders placed in 2017.**
 
-```sql
+```python
 query = "select count(order_id) from orders where year(order_purchase_timestamp) = 2017 "
 cur.execute(query)
 data = cur.fetchall()
@@ -54,5 +54,12 @@ data[0][0]
 ```
 **📊 Insight:** 
 45101
+
+--
+
+**3. Find the total sales per category.**
+
+```sql
+
 
 

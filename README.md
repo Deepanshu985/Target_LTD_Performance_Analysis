@@ -325,7 +325,7 @@ and orders.order_purchase_timestamp <
 date_add(first_order,interval 6 month)
 group by a.customer_id)
 
-select 100 * (count(distinct a.customer_id)/ count(distinct b.customer_id))
+select 100 * (count(distinct b.customer_id)/ count(distinct a.customer_id))
 from a left join b
 on a.customer_id = b.customer_id
 """
@@ -336,8 +336,8 @@ data = cur.fetchall()
 data
 ```
 **📊 Insight:** 
-[(None,)]
-since we did not have any repeating customer within 6 months of purchase, the answer is null.
+Decimal('0.0000')
+since we did not have any repeating customer within 6 months of purchase, the answer is zero.
 
 --
 
